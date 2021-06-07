@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset='utf-8'>
+<style>
+    #h1{text-align: center; font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px; }
+    div{float: right;}
+   
+
+</style>
+<title>SIGN UP</title>
+</head>
+    <body><form action="회원가입완료.html">
+        <form method="POST" action="" name="myform" onsubmit="">
+            <h1 id="h1">SIGN UP</h1>
+            <table border="1" width="1000" align="center">
+    
+                <tr>
+                    <td width="150" align="center">이름</td>
+                    <td width="350"><input type="text" name="myname" size="10" placeholder="Add your Name"></td>
+                </tr>
+                <tr>
+                    <td align="center">주소</td>
+                    <td><input type="text" name="myaddress" size="50" placeholder="주소를 입력해주세요."></td>
+                </tr>
+                <tr>
+                    <td align="center">상세주소</td>
+                    <td><textarea name="myresume" rows="5" cols="40"  placeholder="상세주소 입력해주세요."></textarea></td>
+                </tr>
+                <td align="center">E-mail</td>
+                <td><input type="text" name="myaddress" size="50" placeholder="E-mail 입력"></td>
+            </tr>
+        </tr>
+        <td align="center">휴대폰번호</td>
+        <td><input type="text" name="myaddress" size="50" placeholder="('-'제외)"> 
+           <div> <input type="text" name="myaddress" size="30" placeholder="인증번호 입력"></div></td>
+    </tr>
+</tr>
+<td align="center">생년월일</td>
+<td><input type="text" name="myaddress" size="50"  placeholder="생년월일(8자리 입력)">
+    </td>
+</tr>
+                <tr>
+                    <td align="center">성별</td>
+                    <td>
+                        <input  type="radio" value="public" name="info" onclick="doOpencheck(this);">남
+                        <input type="radio" value="private" name="info"onclick="doOpencheck(this);">여
+                       
+                    </td>
+                </tr>
+                <tr>
+                    <Td align="center">직업</Td>
+                    <td><select name="job">
+                        <option value="0" selected>직업선택
+                            <option value="군인" selected>군인
+                                <option value="학생" selected>학생
+                                    <option value="회사원" selected>회사원
+                                        <option value="연구원" selected>연구원
+                        
+                    </select></td>
+                </tr>
+                <tr>
+                    <td align="center">아이디</td>
+                    <td><input type="text" name="myid"  placeholder="아이디 입력"></td>
+                </tr>
+                <tr>
+                    <td align="center">비밀번호</td>
+                    <td><input type="password" name="mypass"  placeholder="비밀번호 입력"></td>
+                </tr>
+                <tr>
+                    <td align="center">비밀번호 확인</td>
+                    <td><input type="password" name="mypass2"  placeholder="비밀번호 확인"></td>
+                </tr>
+                <tr>
+                <td><PRE> <input   type="checkbox" value="public" name="info" >이용약관 </PRE>
+                <PRE> <input  type="checkbox" value="public" name="info" >개인정보 취급방침 동의</PRE>
+                <PRE> <input  type="checkbox" value="public" name="info" >마케팅 정보 수집 동의</PRE></td></tr>
+                <tr>
+                    <td colspan="2" align="center">
+                      <input style="background-color: black;
+
+                       border: none;
+                     
+                       color: white;
+                     
+                       padding: 5px 10px;
+                     
+                       text-align: center;
+                     
+                       text-decoration: none;
+                     
+                       display: inline-block;
+                     
+                       font-size: 16px;
+                     
+                       margin: 4px 2px;
+                     
+                       cursor: pointer;" type="submit" value="가입하기"></form>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        <input style="background-color: black;
+
+                        border: none;
+                      
+                        color: white;
+                      
+                        padding: 5px 10px;
+                      
+                        text-align: center;
+                      
+                        text-decoration: none;
+                      
+                        display: inline-block;
+                      
+                        font-size: 16px;
+                      
+                        margin: 4px 2px;
+                      
+                        cursor: pointer;" type="reset" value="취소">
+                    </td>
+                </tr>
+            </table>
+        </form></div>
+        
+    
+</body>
+</html>
